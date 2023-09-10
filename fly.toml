@@ -1,0 +1,16 @@
+# fly.toml app configuration file generated for igusgofront on 2023-07-26T15:11:08+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "azurefront"
+primary_region = "fra"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
+
+[http_service]
+  internal_port = 8501
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0

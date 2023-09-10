@@ -1,0 +1,8 @@
+streamlit
+azure-storage-blob
+fastapi
+uvicorn
+python-dotenv
+requests
+openai
+streamlit-chat
